@@ -1,0 +1,82 @@
+.CPM-top-section {
+    background: #2B87D1;
+    width: 100%;
+    height: 540px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+}
+.CPM-top-section:hover {
+    cursor: pointer;
+}
+
+.CPM-redo-button {
+    background: #FF0;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    font-size: 30px; 
+    font-weight: 600;
+    color: gray;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    top: 30px;
+}
+.CPM-redo-button:hover {
+    background: #FFF;
+    cursor: pointer;
+}
+
+.CPM-middle-section {
+    background: #e6e8f4;
+    width: 100%;
+    min-height: 600px;
+}
+.CPM-container {
+    background: #e6e8f4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+}
+.CPM-box1 {
+    background: white;
+    max-width: 600px;
+    box-shadow: 5px 5px 5px #d6d8e4;
+    padding: 20px;
+}
+.CPM-box2 {
+    background: white;
+    max-width: 200px;
+    box-shadow: 5px 5px 5px #d6d8e4;
+    padding: 20px;
+    line-height: 25px;
+}
+.CPM-learn-more-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.CPM-learn-more-links a {
+    text-decoration: none;
+}
+
+.CPM-txt-sty1 {
+    font-size: 40px; 
+    font-weight: 600;
+    color: white;
+}
+.CPM-txt-sty2 {
+    font-size: 16px;
+    color: white;
+}
